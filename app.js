@@ -19,6 +19,7 @@ for (let x = 0; x < width; x++) {
         initialBoard[y][x] = cell;
     }
 }
+
 //Creating the main object
 const gameOfLife = new gol.gameoflife(initialBoard);
 

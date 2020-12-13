@@ -1,0 +1,8 @@
+version: '3'
+services:
+  app:
+    build: .
+    image: nodejs
+    container_name: node-docker-challenge2
+    volumes:
+      - "./src/:/src/"
